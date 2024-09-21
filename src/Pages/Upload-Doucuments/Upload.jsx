@@ -7,6 +7,10 @@ const Upload = () => {
   return (
     <div>
         <Header/>
+
+        <div className="uploadD">
+
+        
         <div className="aside">
          <div className="aside_inner_div"> 
           <p className="star"><FaStar />   <FaStar />   <FaStar />   <FaStar />   <FaStar /></p>
@@ -30,13 +34,11 @@ const Upload = () => {
                  <h3 className="inputText">Upload Passport</h3>
                  <input type="image" placeholder='password' className='input'></input>
             </div>
-             
-             
-             
-             
+            
               <button className="LogBTn"><NavLink to="/upload" className="upload"> upload documents </NavLink></button>
               <p className="downText">already have an account ?  <NavLink to="/Login"> sign in</NavLink></p>
          </form>
+       </div>
        </div>
     </div>
   )
